@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+*{
+    font-family: 'Exo 2', sans-serif;
+    font: 1.2em 'Exo 2', sans-serif;
+    color: rgba(239, 2239, 239, 1);
+}
+body,html {
+    margin: 0;
+    padding: 0;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    background: url("img/bg.jpg");
+width: 100vw;
+    height: 100vh;
+    display: flex; /* Флексы */
+    align-items: center; /* Выравнивание текста по вертикали */
+    justify-content: center; /* Выравнивание текста по горизонтали */
+   
+}
+
+.wrapper {
+    
+}
+form {
+    
+    
+    width: 500px;
+    height: 300px;
+    border: 1px solid rgb(121, 121, 121);
+    background-color: rgb(56, 56, 56);
+    backdrop-filter: blur(10px);
+  /*  flex-direction: row;*/
+}
+
+form header h1{
+    padding: 20px;
+    margin: 0;
+
+    font-weight: 100;
+    border-bottom: 1px solid rgb(221, 218, 59);
+}
+form section {
+    padding: 15px;
+    color: rgb(116,116,116);
+}
+
+form footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center space-between;
+}
+form button {
+    display: flex;
+    background: rgba(255, 255, 255, 0);
+    height: 40px;
+    width: 150px;
+    border: 1px solid rgb(221, 218, 59);
+    font-size: 24px;
+}
+
+form button:hover {
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0);
+    height: 40px;
+    width: 150px;
+    color: rgba(255, 255, 255, 0.377);
+    border: 1px solid rgba(255, 255, 255, 0.377);
+    
+}
